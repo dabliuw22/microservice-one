@@ -34,6 +34,14 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.cloud:spring-cloud-starter-config')
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+	
+	//Trazado
+	compile('org.springframework.cloud:spring-cloud-starter-sleuth')
+	compile('org.springframework.cloud:spring-cloud-sleuth-zipkin')
+	
+	//Bus
+	//compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
+	
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
